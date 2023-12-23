@@ -141,7 +141,7 @@ def func():
     print(a)
 
 
-#a=20
+a=20
 func()
 print(a)
 
