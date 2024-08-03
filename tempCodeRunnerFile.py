@@ -1,10 +1,10 @@
-for t in gtu:
-    gtu[t]=float(input(f"{t}   : "))
-    
-print("\nYOUR GRADES \n")
-for t in gtu:
-    temp=grades(gtu[t],1)
-    print(f"{t}  : {temp}")
-
-for t in gtu:
-    gtu[t]=grades(gtu[t])
+    if(i==alpha[a]):
+                if mode.lower()=="encode" and a+offset > len(a) :
+                    ans=ans+a[a-len(a)+offset]
+                else:
+                    ans=ans+a[a+offset]
+                if mode.lower()=="decode" and a<offset:
+                    ans=ans+a[len(a)-offset+a]
+                else:
+                    ans=ans-a[a-offset]
+    retu
